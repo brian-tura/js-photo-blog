@@ -16,3 +16,12 @@ main{
 .title{
     font-size: 60px;
 }
+
+.photo-holder{
+    position: relative;
+}
+
+.pin{
+    position: absolute;
+    top: -15px;
+}
