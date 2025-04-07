@@ -19,6 +19,7 @@ main {
 
 .photo-holder {
     position: relative;
+    box-shadow: 3px 3px rgb(78, 78, 78);
 }
 
 .pin {
