@@ -17,7 +17,6 @@ Note
 Non siete obbligati a usare Bootstrap: siete liberi di decidere come gestire lo stile :faccia_leggermente_sorridente:
 Buon Lavoro e buon divertimento!
 
-Ciao Brian:
 Ciao ragazzi, esercizio di oggi: Photo Blog
 repo: js-photo-blog (la stessa di ieri)
 CONSEGNA
