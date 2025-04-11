@@ -1,5 +1,6 @@
 let photoContainer = document.getElementById('photo-container');
 
+// Effettuo la chiamata axios
 axios.get("https://lanciweb.github.io/demo/api/pictures/")
     .then(resp => {
         const photos = resp.data;
@@ -19,6 +20,7 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
 let overlay = document.getElementById('overlay');
 let overlayHolder = document.getElementById('overlay-holder');
 
+// Funzione per mostrare e nascondere l'overlay
 function display() {
     overlay.style.display = "flex";
     let placeHolder = overlayHolder.innerHTML;
