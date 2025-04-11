@@ -9,7 +9,7 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
                                     <img class="img-fluid mb-2" onClick="display()" src="${photos[i].url}" alt="">
                                     <img class="pin" src="./img/pin.svg" alt="">
                                     <p class="align-self-start date">${photos[i].date}</p>
-                                    <h5 class="align-self-start"> ${photos[i].title}</h5>    
+                                    <h2 class="align-self-start"> ${photos[i].title}</h2>    
                                 </div>`;
             photoContainer.innerHTML += singlePhoto;
         }
