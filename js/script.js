@@ -12,8 +12,8 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
                                     <h2 class="align-self-start"> ${photos[i].title}</h2>    
                                 </div>`;
             photoContainer.innerHTML += singlePhoto;
-        }
-    })
+        };
+    });
 
 
 let overlay = document.getElementById('overlay');
@@ -21,14 +21,14 @@ let overlayHolder = document.getElementById('overlay-holder');
 
 function display() {
     overlay.style.display = "flex";
-    let placeHolder = overlayHolder.innerHTML
+    let placeHolder = overlayHolder.innerHTML;
     overlayHolder.innerHTML = `<img class="img-fluid" src="${event.target.src}" alt="">` + overlayHolder.innerHTML;
 
     let button = document.getElementById('closer');
     button.addEventListener("click", () => {
         overlay.style.display = "none";
         overlayHolder.innerHTML = placeHolder;
-    })
-}
+    });
+};
 
 
